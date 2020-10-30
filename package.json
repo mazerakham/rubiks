@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/mazerakham/rubiks/issues"
   },
-  "homepage": "https://github.com/mazerakham/rubiks#readme",
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

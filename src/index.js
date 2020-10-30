@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class TestComponent extends Component {
-
   constructor() {
     super();
     console.log("TestComponent constructor.");
