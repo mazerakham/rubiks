@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import RubiksApp from './components/RubiksApp';
+import RubiksAppContainer from './components/RubiksAppContainer';
 import './index.css';
 
 class TestComponent extends Component {
@@ -22,6 +24,6 @@ class TestComponent extends Component {
 console.log("We are here.");
 
 ReactDOM.render(
-  <TestComponent />,
+  <RubiksAppContainer />,
   document.getElementById('root')
 );

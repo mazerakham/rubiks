@@ -1,0 +1,24 @@
+
+$primary-color: #333;
+$font-stack: 12;
+
+div.rubiksAppContainer {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 100%; 
+  width: 100%;
+  outline: 2px dashed black;
+}
+
+div.rubiksApp {
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+  outline: 2px dashed black;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
