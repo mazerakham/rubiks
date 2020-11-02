@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
+    "postinstall": "link-module-alias",
     "build": "react-scripts build",
     "test": "react-scripts test"
+  },
+  "_moduleAliases": {
+    "@src": "src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
     "url": "https://github.com/mazerakham/rubiks/issues"
   },
   "dependencies": {
+    "link-module-alias": "^1.2.0",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

@@ -8,6 +8,7 @@ div.rubiksAppContainer {
   left: 0; 
   height: 100%; 
   width: 100%;
+
   outline: 2px dashed black;
 }
 
@@ -15,10 +16,27 @@ div.rubiksApp {
   margin: 0 auto;
   width: 500px;
   height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   outline: 2px dashed black;
 }
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
+div.buttons-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  outline: 2px dashed black;
+  align-items: center;
+
+  button {
+    width: 80%;
+    height: 30%;
+  }
+}
+
+div.cube-panel {
+  flex-grow: 2;
+  outline: 2px dashed black;
 }
